@@ -1,0 +1,38 @@
+<html>
+<head>
+
+    <title>Reconocedor de objetos en video</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://tse2.mm.bing.net/th?id=OIP.0_ukLbbtXBbVG-tvwn-ZsgHaGx&pid=Api&P=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    
+
+
+
+</head>
+
+<body style="background-color:lightblue;">
+    
+        <center>
+          <h1 class="btn btn-info heading">Detección de objetos</h1>
+          <button onclick="Start()">Start</button>
+          <input placeholder="Coloca el objeto que quieras identificar" type="text" id="Objects">
+        
+          <h3 id="status" class="btn btn-danger"></h3>
+          <h3 id="objetos_detectados"></h3>
+        </center>
+        <label id="estado"></label>
+        <label id="objeto"></label>
+        <script src="main.js"></script>
+       
+        
+        
+</body>
+</html>

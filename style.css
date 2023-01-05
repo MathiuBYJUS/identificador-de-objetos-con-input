@@ -1,0 +1,13 @@
+body
+{
+    background-color: rgb(252, 0, 0);
+    text-align: center;
+
+}
+
+label
+{
+ background-color: darkslateblue;  
+ padding: 10px;
+ border-radius: 10px; 
+}
